@@ -1,0 +1,14 @@
+{
+  "name":"forecast-app",
+  "version":"1.0.0",
+  "scripts":{
+  "start": "nodemon src/app.js"
+},
+  "dependencies": {
+    "express": "^4.18.2",
+    "hbs": "^4.2.0",
+    "postman-request": "^2.88.1-postman.33"
+  },
+
+"description":"This is about the notes or instruction - relevant to this app"
+}
