@@ -1,2 +1,2 @@
 runtime: nodejs16
-service: demo1
+service: default
