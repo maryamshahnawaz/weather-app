@@ -1,4 +1,4 @@
 runtime: nodejs16
 service: default
-serviceAccount: weather-app-310@main-composite-411800.iam.gserviceaccount.com
+
 
