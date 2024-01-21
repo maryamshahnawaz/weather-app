@@ -3,11 +3,7 @@ steps:
     entrypoint: 'bash'
     args:
       - '-c'
-      - 'gcloud app deploy app.yaml && ls'
-options:
-  logging: CLOUD_LOGGING_ONLY
-  build:
-    serviceAccount: 'weather-app-310@main-composite-411800.iam.gserviceaccount.com'
-
+      - 'gcloud app deploy app.yaml' , 'ls'
+timeout: '1600s'
 
 
